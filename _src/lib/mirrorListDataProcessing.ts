@@ -114,7 +114,6 @@ export default function (globalOptions: GlobalOptions) {
         help_url: helpPages[d.name],
         is_new: Boolean(new_mirrors[d.name]),
         description: descriptions[d.name],
-        github_release: d.url && d.url.startsWith("/github-release/"),
       }));
   };
 
