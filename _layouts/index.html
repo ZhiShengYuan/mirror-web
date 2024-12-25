@@ -74,14 +74,6 @@
 							</div>
 						</div>
 						{% endunless %}
-						<div class="thuhidden {%if site.issue%}col-lg-3{%endif%}">
-							<h4> {% fa_svg far.fa-envelope %} 联系我们 </h4>
-							<ul>
-								<li><strong>意见反馈</strong> <br /> <a href="https://github.com/tuna/issues">https://github.com/tuna/issues</a></li>
-								<li><strong>发送邮件</strong> <br /> <a class="eib1gieB"></a></li>
-								<li><strong>在线交流</strong> <br /> <a href="https://web.libera.chat/#tuna"> #tuna at Libera.Chat </a></li>
-							</ul>
-						</div>
 						<div {%if site.issue%}class="col-lg-2"{%endif%}>
 							<h4> {% fa_svg fas.fa-arrow-up-right-from-square %} 相关链接 </h4>
 							<ul>
@@ -90,9 +82,6 @@
 								<li><a href="/status/#server-status">服务器状态</a></li>
 								<li><a href="/status/#syncing-status">同步状态</a></li>
 								{% endunless %}
-								<li class="thuhidden"><a href="https://tuna.moe/">清华大学 TUNA 协会</a></li>
-								<li><a href="https://github.com/tuna/tunasync">镜像管理器源码</a></li>
-								<li><a href="https://github.com/tuna/tunasync-scripts">自定义镜像脚本</a></li>
 							</ul>
 						</div>
 						{% unless site.hide_mirrorz %}
