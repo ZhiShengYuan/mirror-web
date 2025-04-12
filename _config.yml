@@ -11,10 +11,10 @@ meow_404: true
 issue_tag: tuna
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: "/:categories/:title/"
-url: "https://mirror.ppcu.lol"
-hostname: "mirror.ppcu.lol"
-urlv4: "https://mirror4.ppcu.lol"
-urlv6: "https://mirror6.ppcu.lol"
+url: "https://mirror.ppuc.lol"
+hostname: "mirror.ppuc.lol"
+urlv4: "https://mirror4.ppuc.lol"
+urlv6: "https://mirror6.ppuc.lol"
 hide_navbar: false
 hide_download: false
 hide_server_status: true
